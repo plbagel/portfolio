@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Playfair+Display:wght@400;500;600;800&family=Press+Start+2P&family=Raleway:wght@400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100%;
+}
+
+.page {
+    background-color: #0F0F0F;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 122px;
+    margin-right: 122px;
+}
+
+.contect {
+    max-width: 100%;
+    border-bottom: 1px solid rgba(210, 159, 32, 0.3);
+}
+
+.header {
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    align-items: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.logo__guide {
+    grid-area: 1/1/1;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+}
+
+.nav__links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav__links__a {
+    font-size: 1.4vw;
+    font-weight: 400;
+    margin-left: 6.5vw;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Playfair Display';
+}
+.nav__links__a:hover {
+    transition: 1s;
+    color: #DE911E;
+}
+.nav_change__links {
+    border-bottom: 2px solid #fff;
+}
+.nav_change__links:hover {
+    border-bottom: 2px solid #517540;
+    transition: 1s;
+}
+
+.content__hero {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 97px;
+    margin-bottom: 97px;
+}
+
+.content__hero__p-btn {
+    width: 500px;
+}
+
+.content__hero__p__p1 {
+    color: #fff;
+    font-size: 2vw;
+    font-weight: 600;
+    font-family: 'Playfair Display';
+}
+.content__hero__p__p2 {
+    color: #DE911E;
+    line-height: 15px;
+    font-size: 3vw;
+    font-weight: 900;
+    font-family: 'Playfair Display';
+}
+.content__hero__p__p3 {
+    color: #fff;
+    font-size: 1.5vw;
+    font-weight: 400;
+    font-family: 'Playfair Display';
+}
+
+.content__hero__button-btn {
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.content__hero__btn {
+    color: #DE911E;
+    font-size: 1vw;
+    font-weight: 400;
+    border: 0.15vw solid #517540;
+    border-radius: 20px;
+    padding: 17px 35px;
+    text-decoration: none;
+    font-family: 'Raleway';
+    background-color: #0F0F0F;
+}
+.content__hero__btn:hover {
+    background-color: #314628d2;
+    transition: 1s;
+}
+
+.content__hero__img {
+    width: 23vw;
+    height: 25.8vw;
+    vertical-align: middle;
+    display: inline-block;
+    max-width: 100%;
+    border: 3px;
+    border-color: #65491f #2d4920;
+    padding: 10px;
+    border-style: dashed;
+}
+
+.content__skill {
+    background-image: url(./img/fone.jpg);
+    width: 100%;
+    padding-top: 97px;
+    padding-bottom: 97px;
+}
+
+.content__heading__h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 1.8vw;
+    font-family: 'Raleway';
+    font-weight: 700;
+}
+
+.content_container__skill {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+.content__skill__p {
+    margin-top: 50px;
+    font-family: 'Press Start 2P';
+    font-size: 1.6vw;
+    border-left: 3.5px solid #8e5f1a;
+    color: #fff;
+}
+
+.skill_p-border {
+    border-left: none;
+}
+.widthimg-html {
+    width: 1.7vw;
+}
+.widthimg-css {
+    width: 1.7vw;
+}
+.widthimg-figma {
+    width: 1.8vw;
+}
+.widthimg-js {
+    width: 2.1vw;
+}
+.widthimg-ps {
+    width: 1.7vw;
+}
+.widthimg-it {
+    width: 1.8vw;
+}
+
+.content__work {
+    width: 100%;
+    padding-top: 97px;
+    padding-bottom: 97px;
+}
+
+.heading-change {
+    margin-bottom: 100px;
+}
+
+.content__work__p-btn-img {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-bottom: 1px solid #517540;
+    padding-bottom: 40px;
+    align-items: flex-end
+}
+.change-content__work {
+    border: none;
+}
+.work-change {
+    border: none;
+}
+
+.content__work__img {
+    width: 20vw;
+    height: 12vw;
+    display: inline-block;
+    max-width: 100%;
+}
+.content__work__img3 {
+    display: inline-block;
+    max-width: 100%;
+    width: 22vw;
+    height: 13vw;
+}
+
+.content__work__p {
+    margin-left: 38px;
+    margin-top: 20px;
+}
+
+.content__work__p1 {
+    font-family: 'Raleway';
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.7vw;
+}
+.content__work__p2 {
+    font-family: 'Raleway';
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.2vw;
+}
+
+.box{
+    display: flex;
+}
+
+.content__work__btn {
+    color: #DE911E;
+    font-size: 1.5vw;
+    font-weight: 600;
+    border: 0.15vw solid #517540;
+    border-radius: 40px;
+    padding: 18px 24px;
+    text-decoration: none;
+    font-family: 'Raleway';
+    background-color: #0F0F0F;
+}
+.content__work__btn:hover {
+    background-color: #314628d2;
+    transition: 1s;
+}
+
+.content__contact {
+    background-image: url(./img/fone2.jpg);
+    width: 100%;
+    padding-top: 125px;
+    padding-bottom: 125px;
+}
+
+.content__heading__p {
+    color: #fff;
+    text-align: center;
+    font-size: 1.3vw;
+    font-family: 'Raleway';
+    font-weight: 400;
+}
+
+.content__contact__li-btn {
+    display: flex;
+    max-width: 1043px;
+    align-items: center;
+    flex-direction: column-reverse;
+    gap: 25px;
+}
+
+.content__contact__li {
+    color: #fff;
+    font-family: 'Montserrat';
+    font-size: 1.5vw;
+    list-style: none;
+}
+
+.content_container__contact {
+    padding: 8px;
+}
+
+.content__contact__input {
+    border: 2px solid #DE911E;
+    background-color: transparent;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 20px;
+    padding-right: 72px;
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 1vw;
+}
+.content__contact__input::-webkit-input-placeholder {
+    color: #fff;
+}
+
+.content__contact__btn {
+    color: #fff;
+    border: 2px solid #DE911E;
+    background-color: transparent;
+    padding: 10px 60px;
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 1.2vw;
+}
+.content__contact__btn:hover {
+    background-color: #835613;
+}
+
+.footer {
+    background-color: #DE911E;
+    max-width: 100%;
+}
+
+.copyright {
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    font-family: 'Montserrat';
+    font-size: 15px;
+}
+
+.wrapper-contact {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    text-align: center;
+}
